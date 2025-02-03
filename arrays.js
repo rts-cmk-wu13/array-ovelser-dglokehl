@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // ----- opgave 3a -----
     console.log("Opgave 3a:", dogsArray.includes("Trixie")); 
+
     // ----- opgave 3b -----
     console.log("Opgave 3b:", dogsArray.includes("Baxter"));
 
@@ -30,14 +31,17 @@ document.addEventListener("DOMContentLoaded", function() {
         return cat === "Bagheera";
     }
     console.log("Opgave 4a:", catsArray.find(findBagheera));
+
     // ----- opgave 4b -----
     function findSalem(cat) {
         return cat === "Salem";
     }
     console.log("Opgave 4b:", catsArray.find(findSalem));
-
-
+    
+    
     // ----- opgave 5 -----
+    let numbersArray3 = numbersArray.map((number) => number * 3);
+    console.log("Opgave 5:", numbersArray3);
 
 
     // ----- opgave 6 -----
