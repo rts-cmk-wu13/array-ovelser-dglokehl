@@ -6,4 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+    // ----- opgave 1 -----
+    function filterNums(value) {
+        return value >= 20;
+    }
+    let newNumbers = numbersArray.filter(filterNums);
+    console.log(newNumbers);
+
+
 }) // ends DOMContentLoaded
