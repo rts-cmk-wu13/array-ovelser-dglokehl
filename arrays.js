@@ -11,7 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
         return value >= 20;
     }
     let newNumbers = numbersArray.filter(filterNums);
-    console.log(newNumbers);
+    console.log("Opgave 1:", newNumbers);
+    
+    
+    // ----- opgave 2 -----
+    catsArray.push("Sniffles")
+    console.log("Opgave 2:", catsArray);
 
 
 }) // ends DOMContentLoaded
