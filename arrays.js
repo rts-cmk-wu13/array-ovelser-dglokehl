@@ -49,7 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Opgave 6:", dogsArrayShort);
 
 
-    // ----- opgave 7 -----
+    // ----- opgave 7a -----
+    console.log("Opgave 7a:", fruitsArray.indexOf("Mango"));
+    
+    // ----- opgave 7b -----
+    console.log("Opgave 7b:", fruitsArray.indexOf("Blåbær"), "(Blåbær er ikke i arrayet så derfor siger den -1)");
 
 
     // ----- opgave 8 -----
