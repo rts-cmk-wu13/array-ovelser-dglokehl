@@ -20,17 +20,33 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     // ----- opgave 3a -----
-    if (dogsArray.includes("Trixie")) {
-        console.log("Opgave 3a:", true);
-    } else {
-        console.log("Opgave 3a:", false);
-    }
+    console.log("Opgave 3a:", dogsArray.includes("Trixie")); 
     // ----- opgave 3b -----
-    if (dogsArray.includes("Baxter")) {
-        console.log("Opgave 3b:", true);
-    } else {
-        console.log("Opgave 3b:", false);
+    console.log("Opgave 3b:", dogsArray.includes("Baxter"));
+
+
+    // ----- opgave 4a -----
+    function findBagheera(cat) {
+        return cat === "Bagheera";
     }
+    console.log("Opgave 4a:", catsArray.find(findBagheera));
+    // ----- opgave 4b -----
+    function findSalem(cat) {
+        return cat === "Salem";
+    }
+    console.log("Opgave 4b:", catsArray.find(findSalem));
+
+
+    // ----- opgave 5 -----
+
+
+    // ----- opgave 6 -----
+
+
+    // ----- opgave 7 -----
+
+
+    // ----- opgave 8 -----
 
 
 }) // ends DOMContentLoaded
