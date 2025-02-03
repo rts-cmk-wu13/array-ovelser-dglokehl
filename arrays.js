@@ -15,8 +15,22 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     // ----- opgave 2 -----
-    catsArray.push("Sniffles")
+    catsArray.push("Sniffles");
     console.log("Opgave 2:", catsArray);
+
+
+    // ----- opgave 3a -----
+    if (dogsArray.includes("Trixie")) {
+        console.log("Opgave 3a:", true);
+    } else {
+        console.log("Opgave 3a:", false);
+    }
+    // ----- opgave 3b -----
+    if (dogsArray.includes("Baxter")) {
+        console.log("Opgave 3b:", true);
+    } else {
+        console.log("Opgave 3b:", false);
+    }
 
 
 }) // ends DOMContentLoaded
