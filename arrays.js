@@ -59,6 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
         dogsArray.splice(dog, 1);
     }
     console.log("Opgave 8:", dogsArray);
+    
+    
+    // ----- ekstra-opgave -----
+    let numbersArraySum = numbersArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    console.log("Ekstra-opgave:", numbersArraySum);
 
 
 }) // ends DOMContentLoaded
