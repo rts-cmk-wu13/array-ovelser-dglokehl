@@ -27,16 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     // ----- opgave 4a -----
-    function findBagheera(cat) {
-        return cat === "Bagheera";
+    function findCat(catName) {
+        console.log("Opgave 4:", catsArray.find((cat) => cat === catName));
     }
-    console.log("Opgave 4a:", catsArray.find(findBagheera));
-
+    findCat("Bagheera");
+    
     // ----- opgave 4b -----
-    function findSalem(cat) {
-        return cat === "Salem";
-    }
-    console.log("Opgave 4b:", catsArray.find(findSalem));
+    findCat("Salem");
     
     
     // ----- opgave 5 -----
@@ -47,16 +44,21 @@ document.addEventListener("DOMContentLoaded", function() {
     // ----- opgave 6 -----
     let dogsArrayShort = dogsArray.join('');
     console.log("Opgave 6:", dogsArrayShort);
-
-
+    
+    
     // ----- opgave 7a -----
     console.log("Opgave 7a:", fruitsArray.indexOf("Mango"));
     
     // ----- opgave 7b -----
     console.log("Opgave 7b:", fruitsArray.indexOf("Blåbær"), "(Blåbær er ikke i arrayet så derfor siger den -1)");
-
-
+    
+    
     // ----- opgave 8 -----
+    let dog = dogsArray.indexOf("Polly");
+    if (dog !== -1) {
+        dogsArray.splice(dog, 1);
+    }
+    console.log("Opgave 8:", dogsArray);
 
 
 }) // ends DOMContentLoaded
