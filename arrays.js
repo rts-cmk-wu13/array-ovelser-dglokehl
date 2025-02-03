@@ -42,9 +42,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // ----- opgave 5 -----
     let numbersArray3 = numbersArray.map((number) => number * 3);
     console.log("Opgave 5:", numbersArray3);
-
-
+    
+    
     // ----- opgave 6 -----
+    let dogsArrayShort = dogsArray.join('');
+    console.log("Opgave 6:", dogsArrayShort);
 
 
     // ----- opgave 7 -----
